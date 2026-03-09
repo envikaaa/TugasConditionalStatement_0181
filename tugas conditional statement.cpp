@@ -17,3 +17,6 @@ string Status_BMI(float BMI){
     else
         return "obesitas";
 }
+
+//input data
+void Input_Data(float & berat, float tinggi)
