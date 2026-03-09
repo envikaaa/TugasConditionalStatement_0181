@@ -14,4 +14,6 @@ string Status_BMI(float BMI){
         return "berat badan normal";
     else if(BMI < 30)
         return "berat badan kelebihan";
+    else
+        return "obesitas";
 }
