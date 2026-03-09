@@ -33,4 +33,9 @@ int main(){
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025---" <<endl;
 
     BMI = Hitung_BMI(berat, tinggi);
+
+    cout <<endl;
+    cout << "--- Hasil ---" <<endl;
+    cout << "BMI Anda : " <<BMI<<endl;
+    cout "Status : " <<Status_BMI(BMI)<<endl;
 }
