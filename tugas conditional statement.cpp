@@ -7,4 +7,8 @@ float Hitung_BMI(float berat, float tinggi){
 }
 
 //status BMI
-string Status_BMI(float BMI)
+string Status_BMI(float BMI){
+    if(BMI < 18.5)
+        return "berat badan kurang";
+
+}
